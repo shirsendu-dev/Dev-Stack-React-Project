@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Nav></Nav>
-    <main>Main contents goes here</main>
+    <main></main>
     <Footer></Footer>
     </>
   )
