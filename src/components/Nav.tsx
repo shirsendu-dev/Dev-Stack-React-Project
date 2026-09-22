@@ -4,10 +4,10 @@ import mobileMenu from "../assets/mobile-menu.png"
 const Nav = () => {
     return (
         <>
-            <nav className=" hidden md:flex sm:flex py-4 border-b border-gray-200 sticky top-0 ">
+            <nav className=" hidden md:flex sm:flex py-4 border-b border-gray-200 sticky top-0 md:bg-white ">
                 <div className="container mx-auto flex justify-between items-center">
                     <div>
-                        <img src={logo} alt="Logo-Image" />
+                       <a href="#"><img src={logo} alt="Logo-Image" /></a> 
                     </div>
 
                     <ul className="
@@ -30,9 +30,9 @@ const Nav = () => {
 
             {/* Mobile nav */}
 
-            <nav className=" flex md:hidden py-4  sticky top-0 ">
-                <div className="w-[92%] mx-auto flex justify-between items-center border border-gray-100 py-1 px-2">
-                    <div>
+            <nav className=" flex md:hidden py-4  sticky top-0 bg-white ">
+                <div className="w-[95%] mx-auto flex justify-between items-center border border-gray-100 py-3 px-2">
+                    <div className="mr-6">
                         <img src={mobileMenu} alt="Logo-Image" />
                     </div>
 
@@ -41,7 +41,7 @@ const Nav = () => {
                     </div>
 
                     
-                    <div className="flex gap-2 items-center justify-center text-xs">
+                    <div className="flex gap-2 items-center justify-center text-xs ">
                         <button className="text-[#475569FF] hover:text-[#db2777FF] cursor-pointer">Sign In</button>
                         <button className="bg-[#d91b7eFF] text-white rounded-3xl py-1.5 px-3 cursor-pointer text-shadow-2xs hover:bg-[#953DDB] transition-colors duration-300">Sign Up</button>
                     </div>

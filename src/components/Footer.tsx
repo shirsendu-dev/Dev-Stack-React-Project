@@ -1,53 +1,65 @@
-import logo from "../assets/logo-text.png"
-const footer = () => {
-    return (
-        <>
-            <footer className="py-10 [&_p]:text-[#475569FF] [&_p]:text-[14px] [&_p]:leading-[1.8em] border-t border-gray-200 mt-10 ">
-                <div className="container mx-auto grid grid-cols-12 gap-4">
+import logo from "../assets/logo-text.png";
+const Footer = () => {
+  return (
+    <footer className="mt-0 border-t border-gray-200">
 
-                    <div className="col-span-6 flex flex-col gap-4 items-start justify-center">
-                        <img src={logo} alt="" />
-                        <p className="text-[#475569FF] w-[480px]">Curated tools, technologies, and resources for developers building
-                            modern software.</p>
-                        <div className="flex gap-5 [&_p]:text-[black] [&_p]:text-[16px] [&_p:hover]:text-[#db2777FF] cursor-pointer">
-                            <p>GitHub</p>
-                            <p>Twitter</p>
-                            <p>Linkedin</p>
-                        </div>
-                    </div>
-                    <div className="col-span-2">
-                        <h3 className="uppercase mb-5">Products</h3>
-                        <p>Home</p>
-                        <p>Technologies</p>
-                        <p>Projects</p>
+      <div className="container mx-auto px-5 py-12 grid grid-cols-1 md:grid-cols-12 gap-8 md:px-0">
 
-                    </div>
-                    <div className="col-span-2">
-                        <h3 className="uppercase mb-5">Company</h3>
-                        <p>About</p>
-                        <p>Contact</p>
-                        <p>Career</p>
-                    </div>
-                    <div className="col-span-2">
-                        <h3 className="uppercase mb-5">Legal</h3>
-                        <p>Privacy Policy</p>
-                        <p>Terms of Service</p>
-                        
-                    </div>
+        <div className="md:col-span-6 flex flex-col items-center text-center md:items-start md:text-left gap-6 md:px-0">
+          <img src={logo} alt="Dev Stack" className="w-[130px] md:w-auto" />
 
-                </div>
-                    <div className="container mx-auto flex justify-between items-center mt-9 border border-gray-200 py-5 px-5">
-                        <div>
-                            <p>© 2026 Dev Stack. All rights reserved.</p>
-                        </div>
-                        <div className="flex gap-8 items-center">
-                            <p>Privacy</p>
-                            <p>Terms</p>
-                        </div>
-                    </div>
-            </footer>
-        </>
-    );
+          <p className="max-w-[520px] text-[16px] leading-[1.8] text-[#64748b]">
+            Curated tools, technologies, and resources for developers building modern software.
+          </p>
+
+          <div className="flex items-center justify-center md:justify-start gap-4 text-[16px] md:text-[14px]">
+            <a href="#" className="hover:text-[#db2777]">GitHub</a>
+            <span className="md:hidden">•</span>
+            <a href="#" className="hover:text-[#db2777]">Twitter</a>
+            <span className="md:hidden">•</span>
+            <a href="#" className="hover:text-[#db2777]">LinkedIn</a>
+          </div>
+        </div>
+
+        <div className="hidden md:block md:col-span-2">
+          <h3 className="uppercase font-semibold mb-5">Product</h3>
+          <p className="text-[#64748b] mb-2">Home</p>
+          <p className="text-[#64748b] mb-2">Technologies</p>
+          <p className="text-[#64748b]">Projects</p>
+        </div>
+
+        <div className="hidden md:block md:col-span-2">
+          <h3 className="uppercase font-semibold mb-5">Company</h3>
+          <p className="text-[#64748b] mb-2">About</p>
+          <p className="text-[#64748b] mb-2">Contact</p>
+          <p className="text-[#64748b]">Careers</p>
+        </div>
+
+        <div className="hidden md:block md:col-span-2">
+          <h3 className="uppercase font-semibold mb-5">Legal</h3>
+          <p className="text-[#64748b] mb-2">Privacy Policy</p>
+          <p className="text-[#64748b]">Terms of Service</p>
+        </div>
+
+      </div>
+
+      <div className="container mx-auto px-5 md:px-0">
+        <div className="border border-gray-200 py-5 px-5 flex items-center justify-between gap-3">
+
+          <p className="text-xs sm:text-sm text-[#64748b] whitespace-nowrap">
+            © 2026 Dev Stack. All rights reserved.
+          </p>
+
+          <div className="flex items-center gap-4 sm:gap-8">
+            <a href="#" className="text-xs sm:text-sm text-[#64748b] hover:text-[#db2777]">Privacy</a>
+            <a href="#" className="text-xs sm:text-sm text-[#64748b] hover:text-[#db2777]">Terms</a>
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+  );
 };
 
-export default footer;
+export default Footer;
