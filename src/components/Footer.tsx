@@ -43,7 +43,7 @@ const Footer = () => {
 
       </div>
 
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
     <div className="border-t border-gray-200 py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
 
         <p className="text-xs sm:text-sm text-[#64748b] text-center sm:text-left">
