@@ -4,11 +4,11 @@ Dev Stack Builder is a responsive React application where users can explore diff
 
 ## Live Site
 
-**Live URL:** Add your deployed site link here
+**Live URL:** https://dev-stack-a5-react.netlify.app/
 
 ## GitHub Repository
 
-**Repository:** Add your GitHub repository link here
+**Repository:** https://github.com/shirsendu-dev/Dev-Stack-React-Project
 
 ## Technologies Used
 
