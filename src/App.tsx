@@ -23,11 +23,11 @@ function App() {
       <main id="tech">
 
         <div className="container mx-auto px-4 md:px-0 py-20">
-          <p className="text-[28px] md:text-[36px] font-extrabold mb-2">
+          <p className="text-[25px] text-center md:text-[45px] md:text-left font-extrabold mb-2">
             Explore the <span className="brand-gradient-text">Technologies</span>
           </p>
 
-          <p className="text-[#64748B] text-sm md:text-base">
+          <p className="text-[#64748B] text-center w-[70%] mx-auto text-sm md:text-base md:text-left md:w-full ">
             Pick one technology per category to build your ideal stack.
           </p>
         </div>
