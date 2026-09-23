@@ -22,7 +22,7 @@ function App() {
       <Hero></Hero>
       <main id="tech">
 
-        <div className="container mx-auto px-4 md:px-0 py-12">
+        <div className="container mx-auto px-4 md:px-0 py-20">
           <p className="text-[28px] md:text-[36px] font-extrabold mb-2">
             Explore the <span className="brand-gradient-text">Technologies</span>
           </p>
@@ -32,7 +32,7 @@ function App() {
           </p>
         </div>
 
-        <div className="container mx-auto px-4 md:px-0">
+        <div className="container mx-auto px-4 md:px-0 pb-16 md:pb-24">
           <Suspense fallback={<div className="text-center py-10">🌀 Loading Technologies...</div>}>
             <Technologies techsPromise={techsPromise}></Technologies>
           </Suspense>

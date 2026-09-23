@@ -22,9 +22,9 @@ const Hero = () => {
 
           <div className="grid grid-cols-2 gap-3 mt-7 px-4 md:flex md:justify-start md:px-0">
 
-            <button className="brand-gradient-bg text-white rounded-lg py-3 px-4 md:px-6 text-sm md:text-base cursor-pointer hover:opacity-90 transition">
+            <a href="#tech"><button className="brand-gradient-bg text-white rounded-lg py-3 px-4 md:px-6 text-sm md:text-base cursor-pointer hover:opacity-90 transition">
               Explore Technologies
-            </button>
+            </button></a>
 
             <button className="border border-gray-300 text-[#0f172a] rounded-lg py-3 px-4 md:px-8 text-sm md:text-base cursor-pointer hover:bg-gray-50 transition hover:text-[#d91b7e]">
               Learn More

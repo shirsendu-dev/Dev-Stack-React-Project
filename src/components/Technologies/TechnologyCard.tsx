@@ -21,7 +21,7 @@ const TechnologyCard = ({ tech, handleAddTech, isSelected }: TechnologyCardProps
                         className="w-[35px] h-[35px] object-contain"
                     />
 
-                    <span className="text-[11px] bg-[#E0F2FE] text-[#0284C7] px-3 py-1 rounded-full font-medium">
+                    <span className="text-[11px] bg-[#E0F2FE] text-[#000000] px-3 py-1 rounded-full font-medium">
                         {tech.badge}
                     </span>
 

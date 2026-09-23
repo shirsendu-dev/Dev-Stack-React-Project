@@ -1,7 +1,7 @@
 import logo from "../assets/logo-text.png";
 const Footer = () => {
   return (
-    <footer className="mt-0 border-t border-gray-200">
+    <footer className="border-t border-gray-200">
 
       <div className="container mx-auto px-5 py-12 grid grid-cols-1 md:grid-cols-12 gap-8 md:px-0">
 
@@ -43,20 +43,25 @@ const Footer = () => {
 
       </div>
 
-      <div className="container mx-auto md:pb-0">
-        <div className="border-t border-gray-200 py-5 flex items-center justify-between gap-3">
+      <div className="container mx-auto px-4">
+    <div className="border-t border-gray-200 py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
 
-          <p className="text-xs sm:text-sm text-[#64748b] whitespace-nowrap">
+        <p className="text-xs sm:text-sm text-[#64748b] text-center sm:text-left">
             © 2026 Dev Stack. All rights reserved.
-          </p>
+        </p>
 
-          <div className="flex items-center gap-4 sm:gap-8">
-            <a href="#" className="text-xs sm:text-sm text-[#64748b] hover:text-[#db2777]">Privacy</a>
-            <a href="#" className="text-xs sm:text-sm text-[#64748b] hover:text-[#db2777]">Terms</a>
-          </div>
+        <div className="flex items-center justify-center sm:justify-end gap-6">
+            <a href="#" className="text-xs sm:text-sm text-[#64748b] hover:text-[#db2777]">
+                Privacy
+            </a>
 
+            <a href="#" className="text-xs sm:text-sm text-[#64748b] hover:text-[#db2777]">
+                Terms
+            </a>
         </div>
-      </div>
+
+    </div>
+</div>
 
     </footer>
   );
