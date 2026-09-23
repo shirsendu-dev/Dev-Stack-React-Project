@@ -168,6 +168,6 @@ The child calls the function, and the parent updates the state.
 
 ## Author
 
-**Shirsendu Biswas**
+**Shirsendu Biswas Shaon**
 
 Learning and building with React, TypeScript, and modern web development tools.
