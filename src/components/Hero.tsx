@@ -11,7 +11,7 @@ const Hero = () => {
           <h1 className="text-[32px] sm:text-[38px] md:text-[60px] font-bold leading-[1.1em] text-[#0f172a]">
             Build Your Ideal
             <br />
-            <span className="bg-gradient-to-r from-[#ff6b16] via-[#ef3d79] to-[#953ddb] bg-clip-text text-transparent">
+            <span className="brand-gradient-text">
               Development Stack
             </span>
           </h1>
@@ -22,11 +22,11 @@ const Hero = () => {
 
           <div className="grid grid-cols-2 gap-3 mt-7 px-4 md:flex md:justify-start md:px-0">
 
-            <button className="bg-gradient-to-r from-[#ff6b16] via-[#ef3d79] to-[#953ddb] text-white rounded-lg py-3 px-4 md:px-6 text-sm md:text-base cursor-pointer hover:opacity-90 transition">
+            <button className="brand-gradient-bg text-white rounded-lg py-3 px-4 md:px-6 text-sm md:text-base cursor-pointer hover:opacity-90 transition">
               Explore Technologies
             </button>
 
-            <button className="border border-gray-300 text-[#0f172a] rounded-lg py-3 px-4 md:px-8 text-sm md:text-base cursor-pointer hover:bg-gray-50 transition">
+            <button className="border border-gray-300 text-[#0f172a] rounded-lg py-3 px-4 md:px-8 text-sm md:text-base cursor-pointer hover:bg-gray-50 transition hover:text-[#d91b7e]">
               Learn More
             </button>
 

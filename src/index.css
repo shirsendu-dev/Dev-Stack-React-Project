@@ -3,3 +3,18 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+:root {
+  --brand-gradient: linear-gradient(to right, #ff6b16, #ef3d79, #953ddb);
+}
+
+.brand-gradient-bg {
+  background: var(--brand-gradient);
+}
+
+.brand-gradient-text {
+  background: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

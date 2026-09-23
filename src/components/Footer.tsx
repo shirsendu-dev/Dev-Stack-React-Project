@@ -43,8 +43,8 @@ const Footer = () => {
 
       </div>
 
-      <div className="container mx-auto px-5 md:px-0">
-        <div className="border border-gray-200 py-5 px-5 flex items-center justify-between gap-3">
+      <div className="container mx-auto md:pb-0">
+        <div className="border-t border-gray-200 py-5 flex items-center justify-between gap-3">
 
           <p className="text-xs sm:text-sm text-[#64748b] whitespace-nowrap">
             © 2026 Dev Stack. All rights reserved.
