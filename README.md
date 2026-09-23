@@ -1,4 +1,4 @@
-# Dev Stack Builder
+# Dev Stack Builder - SPA
 
 Dev Stack Builder is a responsive React application where users can explore different development technologies and build their own preferred technology stack. Users can add technologies to the stack, remove individual items, clear the whole stack, and get toast notifications for different actions.
 
